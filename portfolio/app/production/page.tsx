@@ -67,7 +67,7 @@ export default async function Page() {
                                 <div className="px-6 pt-4 pb-2">
                                     <ItemTitle itemTitle="使用技術" />
                                     {work.teck === null ? undefined : work.teck.map((teck, idx)=>(
-                                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{teck.teck}</span>
+                                        <span key={idx} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{teck.teck}</span>
                                     ))}
                                 </div>
                                 <div className='relative w-full h-[40vh]'>
