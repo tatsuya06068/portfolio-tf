@@ -13,7 +13,7 @@ export default function Page() {
         <div className='mt-10'>
           長野県出身のWEBエンジニア
           maru
-          ○
+          バックエンド・インフラをメインに開発や構築を中心に仕事をしたいと考えています。
         </div>
 
         <div className="flex flex-row mt-9 justify-around">
@@ -22,7 +22,7 @@ export default function Page() {
               src="/twitter.png"
               alt="twitter"
               width={40}
-              height={100}
+              height={20}
             />
             twitter
           </a>
